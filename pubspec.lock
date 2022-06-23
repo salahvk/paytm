@@ -331,6 +331,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
+  qr:
+    dependency: transitive
+    description:
+      name: qr
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.0"
+  qr_flutter:
+    dependency: "direct main"
+    description:
+      name: qr_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.0"
   rfc_6901:
     dependency: transitive
     description:
@@ -526,7 +540,7 @@ packages:
     source: hosted
     version: "2.0.2"
   uuid:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: uuid
       url: "https://pub.dartlang.org"
