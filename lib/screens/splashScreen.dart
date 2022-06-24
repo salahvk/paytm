@@ -10,7 +10,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   pushToHome() async {
     Future.delayed(const Duration(seconds: 3), () {
-      Navigator.of(context).pushNamed('Home');
+      Navigator.of(context).pushNamed('Login');
     });
   }
 
