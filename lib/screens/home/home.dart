@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
       body: SafeArea(
         child: DraggableHome(
           drawer: const CustomDrawer(),
+          alwaysShowLeadingAndAction: true,
           body: [
             Column(
               children: const [FirstRow(), SecondRow(), ThirdRow()],
