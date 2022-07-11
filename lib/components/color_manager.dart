@@ -11,4 +11,5 @@ class ColorManager {
   static const grayLight = Color(0xff8B97A2);
   static const errorRed = Color(0xffF06A6A);
   static const disabledColor = Color(0xff78906B);
+  static const borderColor = Color.fromARGB(255, 188, 175, 175);
 }
